@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int i,sum=0,average=0,a,s,n;
+    printf("Enter how many numbers:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++){
+        printf("Enter the number:");
+        scanf("%d",a);
+        sum=sum+a;
+    }
+    average=sum/n;
+    printf("Average of the %d numbers are:%d",n,average);
+    return 0;
+}
