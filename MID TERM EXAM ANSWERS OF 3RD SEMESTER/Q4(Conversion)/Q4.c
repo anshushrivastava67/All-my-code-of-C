@@ -25,7 +25,7 @@ void itob(int n,char *s,int b)
             }
         }
     }
-printf("\n Final s :%s Final i:%d",strrev(s),i);
+printf("\n Final s :%s Final i:%d",s,i);
      //s[i]='\0';
 }
 void revstr(char *s,char *r)  
@@ -58,8 +58,6 @@ int main()
     scanf("%d",&b);
     itob(n,s,b);
     
-    revstr(s,y);
-    printf("\n%s",s);
     
     return(0);
 }
